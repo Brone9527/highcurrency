@@ -10,8 +10,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Slf4j
+
 @ThreadSafe
+@Slf4j
 public class AtomicExample2 {
     //请求总数
     public final static int clientTotal =  5000;
